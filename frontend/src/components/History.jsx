@@ -13,7 +13,7 @@ export default function History() {
   // Fetching history
   const getHistory = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/user/history", {
+      const response = await axios.get("https://codexcomment-v3.onrender.com/user/history", {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",

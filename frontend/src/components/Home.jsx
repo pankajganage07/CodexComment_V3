@@ -18,7 +18,7 @@ export default function Home() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/user/generateComment",
+        "https://codexcomment-v3.onrender.com/user/generateComment",
         { code },
         {
           headers: {

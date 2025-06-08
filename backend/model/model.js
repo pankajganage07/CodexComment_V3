@@ -25,8 +25,11 @@ async function model(code) {
     
         const prompt = `generate comments for following code:\n${code}`;
         const result = await model.generateContent(prompt);
+        console.log(result);
+        
         return result;
       } catch (error) {
+        console.log(error);
         res.json({
             msg: "Error generating comment",
             error: error.message,

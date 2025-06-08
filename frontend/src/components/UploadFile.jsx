@@ -24,7 +24,7 @@ export default function UploadFile() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:3000/user/upload", formData, {
+      const response = await axios.post("https://codexcomment-v3.onrender.com/user/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
         responseType: "blob", // To handle the returned file as a Blob
       });

@@ -22,7 +22,7 @@ export default function Signup() {
     e.preventDefault();
     // Handle form submission logic
     const response = await axios.post(
-      "http://localhost:3000/user/signup",
+      "https://codexcomment-v3.onrender.com/user/signup",
       form,
       {
         headers: {

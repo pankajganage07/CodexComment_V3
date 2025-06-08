@@ -16,7 +16,7 @@ export default function TryPage() {
     setIsLoading(true);
     try {
       const response = await axios.post(
-        "http://localhost:3000/tryCodexComment/generateComment",
+        "https://codexcomment-v3.onrender.com/tryCodexComment/generateComment",
         { code },
         {
           headers: { "Content-Type": "application/json" },
