@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
-import TryPage from "./pages/Trypage";
+import TryPage from "./pages/TryPage";
 import MainPage from "./pages/MainPage";
 import History from "./components/History";
 
